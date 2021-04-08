@@ -12,7 +12,7 @@ changeCam = (id) => {
     }
 
     $(".videoWrapper iframe").remove();
-    $('<iframe width="400" height="680" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
+    $('<iframe width="400" height="680" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>')
         .attr("src", "http://www.youtube.com/embed/" + videoid + "?autoplay=1")
         .appendTo(".videoWrapper");
 
