@@ -1,0 +1,54 @@
+Psicometric questions to determine the intelectual level of the user
+
+1. 
+
+2. If you could genetically cross two animals to get the best of both, which would you choose?
+    - A penguin and a cat - 2
+    - A lion and an eagle - 3
+    - A mouse and a dinosaur - 0
+ 
+3. Why do you want to take over the world?
+    - I am the supreme being, and everyone shall bow to me! - 2
+    - I got a bit bored watching Netflix; - 1
+    - The world is a sad place and needs my guidance. - 3
+
+4. If you saw an orange crossing the road, what would you do?
+    - Grab it and make an orange juice. - 2
+    - Take a cold shower to wake up! - 3
+    - I would take her hand and help her accross the road. - 0
+
+5. If you had God powers for 30 minutes, you would:
+    - transfer all the gold and currency to my personal Bank; - 3
+    - predict the future and play at the Casino. -2 
+    - make all pokemons real. - 1 
+
+
+
+possible classification:
+
+worst case: 0 to 5 points
+neutral case: 6 to 10 points
+best case: 11 to 15 points
+
+Predicted outcomes according to classification:
+
+- Worst case:
+
+Best strategy: nuclear bomb;
+Deployment strategy: hipnotize Trump and make him attack North Korea with nuclear submarines.
+Chances of success - 30%
+Expected casualties if successful: 100%
+
+- Neutral case:
+
+Best strategy: Chemical attack;
+Deployment strategy: 
+Chances of success - 70%
+Expected casualties if successful: 63.93%
+
+- Best Case:
+
+Best strategy: Infectious virus (2.0)
+Deployment strategy: insert in supply chain through contaminated animals ???
+Chances of success - 98.50%
+Expected casualties if successful: 0.5% 
