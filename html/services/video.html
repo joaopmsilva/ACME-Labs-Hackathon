@@ -1,1 +1,35 @@
-//page to show video feed options / video feeds
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" modelType="text/css"/>
+    <script modelType="application/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script modelType="application/javascript" async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Spy Feeds</title>
+    <link rel="stylesheet" href="video.css">
+</head>
+<body>
+    <div class="container" style="margin-top: 10%;">
+        <div class="btn-toolbar text-center" role="toolbar">
+            <div class="btn-group mr-2" role="group">
+              <button type="button" class="btn btn-secondary">Lisbon</button>
+              <button type="button" class="btn btn-secondary">New York</button>
+              <button type="button" class="btn btn-secondary">Madrid</button>
+            </div>
+        </div>
+        <div class="videoWrapper">
+            <header class="cover"></header>
+            <iframe width="400"
+                    height="680"
+                    src="https://www.youtube.com/embed/Tc5MW1Lxw_k?autoplay=1"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+            <footer class="cover"></footer>
+        </div>
+    </div>
+</body>
+</html>
