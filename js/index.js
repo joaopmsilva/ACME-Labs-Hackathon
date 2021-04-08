@@ -1,7 +1,7 @@
 init = (event) => {
     event.preventDefault();
     event.stopPropagation();
-    alertFactory("TEST -- Ready", "alert alert-success");
+    window.location.href='tel:+351932814388';
 };
 
 alertFactory = (text, eClass) => {
