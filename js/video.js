@@ -13,8 +13,9 @@ changeCam = (id) => {
             break;
     }
 
-    $("#video").attr("src", videoid);
-    $("#video").load();
-    $("#video").play();
+    console.log(videoid);
+
+    $('#video video source').attr('src', videoid);
+    console.log($('#video video source').attr('src', videoid));
 
 };
