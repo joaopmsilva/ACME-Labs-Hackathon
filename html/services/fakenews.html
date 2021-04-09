@@ -22,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c3bc2f5af9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../css/ddos.css">
-    <script src="../../js/ddos.js"></script>
+    <script src="../../js/fakenews.js"></script>
   </head>
   <body style="margin: 0; position: absolute; top: 50%; width: 100%; -ms-transform: translateY(-50%); transform: translateY(-50%); background-image: url('../../html/resources/209037.gif');">
     <div class="container-fluid text-center" style="background-color: black; opacity: 95%;">
@@ -50,7 +50,7 @@
 		<div class="col-md-4">
 			<br>
 			<h3 style="color: white; font-family: 'Abel', sans-serif;">
-				DDoS Attack Service
+				Spread Fake News
 			</h3>
 		</div>
 		<div class="col-md-4">
@@ -60,12 +60,11 @@
 		<div class="col-md-4">
 		</div>
 		<div class="col-md-4">
-            <form id="ipForm">
+            <form id="smsForm">
                 <div class="form-group">
-                  <input type="text" class="form-control" id="ip" placeholder="Enter IP">
-                  <small id="ipHelp" class="form-text text-muted">This address will be DDoS'd by a botnet of 4000+ machines.</small>
+                  <input type="text" class="form-control" id="sms" placeholder="Enter Message">
                 </div>
-                <button type="button" class="btn btn-danger" id="attack" onclick="init(this)">Attack</button>
+                <button type="button" class="btn btn-danger" id="attack" onclick="init(this)">Send</button>
             </form>
                 <div class="fa-3x" id="loading" style="display: none;">
                     <i class="fas fa-spinner fa-spin"></i>
@@ -76,15 +75,15 @@
                     <p font-family: 'Abel', sans-serif;>Command Prompt</p>
                 </header>
                 <div class="terminal-home">
-                  <p class="console" id="console1" style="display: none;">=> Booting BOTNET_23</p>
-                  <p class="console" id="console2" style="display: none;"></p>
-                  <p class="console" id="console3" style="display: none;"></p>
-                  <p class="console" id="console4" style="display: none;"></p>
-                  <p class="console" id="console5" style="display: none;"></p>
-                  <p class="console" id="console6" style="display: none;"></p>
-                  <p class="console" id="console7" style="display: none;">Request timed out</p>
-                  <p class="console" id="console8" style="display: none;">Request timed out</p>
-                  <p class="console" id="console9" style="display: none;"></p>
+                  <p class="console" id="console1" style="display: none;">=> Accessing root@lisboa.academiadecodigo.org</p>
+                  <p class="console" id="console2" style="display: none;">=> Found 74 numbers</p>
+                  <p class="console" id="console3" style="display: none;">=> Starting messaging service</p>
+                  <p class="console" id="console4" style="display: none;">Sending request to 175.148.63.3  [##----------------] 10%</p>
+                  <p class="console" id="console5" style="display: none;">Sending request to 175.148.63.3  [######-------] 34%</p>
+                  <p class="console" id="console6" style="display: none;">Sending request to 175.148.63.3  [#########] 99%</p>
+                  <p class="console" id="console7" style="display: none;"></p>
+                  <p class="console" id="console8" style="display: none;">=> Executing</p>
+                  <p class="console" id="console9" style="display: none;">=> Complete</p>
                 </div>
               </section>
 		</div>

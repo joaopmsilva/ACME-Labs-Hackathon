@@ -1,7 +1,6 @@
 $(function(){
     var loading = $('#loadbar').hide();
     var i = 0;
-    var score = 0;
     document.querySelector('#questionText').innerHTML = questions[i];
     document.querySelector('#answerOne').innerHTML = answers[i][0];
     document.querySelector('#answerTwo').innerHTML = answers[i][1];
@@ -16,11 +15,9 @@ $(function(){
         $("label.btn").on('click',function () {
 
             if(i >= 3){
-                document.querySelector('#questionText').innerHTML = "Quiz Done<br>Total Score: " + score;
+                document.querySelector('#questionText').innerHTML = results[Math.floor(Math.random()*3)];
                 $('#quiz').hide();
             }else{
-                var choice = 0;
-                console.log($(this));
                 $('#loadbar').show();
                 $('#question').hide();
                 $('#quiz').hide();
@@ -50,3 +47,5 @@ var answers = {
     2: ["I would take her hand and help her accross the road", "Grab it and make an orange juice", "Take a cold shower to wake up"],
     3: ["Make all pokemon real", "Predict the future and play at the casino", "Transfer all the gold and currency to my personal bank"]
 }
+
+var results = ["", "", ""];

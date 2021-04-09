@@ -27,6 +27,8 @@
             integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
             crossorigin="anonymous"
         />
+        <script src="https://kit.fontawesome.com/c3bc2f5af9.js" crossorigin="anonymous"></script>
+        <script src="../../js/alerts.js"></script>
     </head>
     <body
         style="
@@ -93,6 +95,13 @@
                     </div>
                 </div>
             </div>
+            <div class="alert alert-dark" role="alert" style="display: none;" id="alert">
+                <h4 class="alert-heading">We'll be in touch soon<h4></h4>
+                <div class="fa-2x" id="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <br>
+                </div>
+              </div>
             <div
                 class="row"
                 style="display: flex; justify-content: space-evenly"
@@ -101,7 +110,7 @@
                     class="col-md-4"
                     style="color: white; font-family: 'Abel', sans-serif"
                 >
-                    <br /><br /><br />
+                    <br /><br />
                     <h3>Our Services</h3>
                     <div>
                         <p>
@@ -131,7 +140,7 @@
                     class="table"
                     style="color: white; font-family: 'Abel', sans-serif"
                   >
-                    <br /><br /><br /><br /><br /><br />
+                    <br /><br />
                     <thead>
                       <tr>
                         <th scope="col">Killing Service</th>
@@ -142,40 +151,38 @@
                     <tbody>
                       <tr>
                         <td scope="row">Long Distance Shot</td>
-                        <td>0.1</td>
-                        <td><button style="border-radius: 2px;">Hire</button></td>
+                        <td>0.92141฿</td>
+                        <td><button class="btn btn-danger" onclick="popAlert(event)">Hire</button></td>
                       </tr>
                       <tr>
                         <td scope="row">Apparent Accident</td>
-                        <td>0.1</td>
-                       <td><button style="border-radius: 2px;">Hire</button></td>
+                        <td>0.73456฿</td>
+                       <td><button class="btn btn-danger" onclick="popAlert(event)">Hire</button></td>
                       </tr>
                       <tr>
                         <td scope="row">Knife Killing</td>
-                        <td>0.1</td>
-                         <td><button style="border-radius: 2px;">Hire</button></td>
+                        <td>0.69665฿</td>
+                         <td><button class="btn btn-danger" onclick="popAlert(event)">Hire</button></td>
                       </tr>
                       </tr>
                       <tr>
                         <td scope="row">Poison</t>
-                        <td>0.1</td>
-                         <td><button style="border-radius: 2px;">Hire</button></td>
+                        <td>0.61121฿</td>
+                         <td><button class="btn btn-danger" onclick="popAlert(event)">Hire</button></td>
                       </tr>
                       </tr>
                     </tbody>
                   </table>
-
-                    <br />
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
-                    <br /><br /><br />
+                    <br /><br />
                     <a href="../authed.html">
                         <button
                             type="button"
-                            class="btn btn-success"
+                            class="btn btn-dark"
                             style="margin-bottom: 20px"
                         >
                             Back
