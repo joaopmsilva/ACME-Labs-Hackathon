@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>ACME Labs</title>
+
+        <link
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            rel="stylesheet"
+            id="bootstrap-css"
+        />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://kit.fontawesome.com/c3bc2f5af9.js" crossorigin="anonymous"></script>
+        <script src="../../js/alerts.js"></script>
+    </head>
+    <body
+        style="
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            background-image: url('../../html/resources/209037.gif');
+        "
+    >
+        <div
+            class="container-fluid text-center"
+            style="background-color: black; opacity: 95%"
+        >
+        <div class="row">
+          <div class="col-md-12">
+              <blockquote class="blockquote text-center">
+                  <h1
+                      class="display-1"
+                      style="
+                          color: white;
+                          font-family: 'Abel', sans-serif;
+                          margin-top: 35px;
+                      "
+                  >
+                      Welcome umbr4
+                  </h1>
+              </blockquote>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="border-top my-3 align-middle"></div>
+                      <h4
+                          style="
+                              color: white;
+                              font-family: 'Abel', sans-serif;
+                          "
+                      >
+                          Proxy: 182.78.88.69 | Physical Address:
+                          D8-CB-8A-9D-F9-1E | DHCPv6 IAID: 249088906
+                      </h4>
+                      <div class="border-top my-3 align-middle"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <blockquote class="blockquote text-center"></blockquote>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="border-top my-3 align-middle"></div>
+                            <h2
+                                style="
+                                    color: white;
+                                    font-family: 'Abel', sans-serif;
+                                "
+                            >
+                                SQL Injection
+                            </h2>
+                            <div class="border-top my-3 align-middle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="alert alert-dark" role="alert" style="display: none;" id="alert">
+                <h4 class="alert-heading">We'll be in touch soon<h4></h4>
+                <div class="fa-2x" id="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <br>
+                </div>
+              </div>
+            <div
+                class="row"
+                style="display: flex; justify-content: space-evenly"
+            >
+                <div
+                    class="col-md-4"
+                    style="color: white; font-family: 'Abel', sans-serif"
+                >
+                    <br /><br />
+                    <h3>Job Description</h3>
+                <div style="color: white; font-family: 'Abel', sans-serif">
+                    <p>
+                        SQL injection is a web security vulnerability that
+                        allows an attacker to interfere with the queries that an
+                        application makes to its database. The impact SQL
+                        injection can have on a business is far-reaching. A
+                        successful attack may result in the unauthorized viewing
+                        of user lists, the deletion of entire tables and, in
+                        certain cases, the attacker gaining administrative
+                        rights to a database, all of which are highly
+                        detrimental to a business.
+                    </p>
+                    <h3>SQL Injection Types</h3>
+                    <strong>In-band SQLi:</strong><br>
+                    <strong>Inferential (Blind) SQLi</strong><br>
+                    <strong>Out-of-band SQLi</strong><br>
+                </div>
+                </div>
+
+                <div class="col-md-4">
+                    <table
+                    class="table"
+                    style="color: white; font-family: 'Abel', sans-serif"
+                  >
+                    <br /><br />
+                    <thead>
+                      <tr>
+                        <th scope="col">Injection Service</th>
+                        <th scope="col">Price</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td scope="row">In-band SQLi</td>
+                        <td>0.23564฿</td>
+                        <td><button class="btn btn-danger" onclick="popAlert(event)">Purchase</button></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Inferential (Blind) SQLi</td>
+                        <td>0.19854฿</td>
+                       <td><button class="btn btn-danger" onclick="popAlert(event)">Purchase</button></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Out-of-band SQLi</td>
+                        <td>0.18756฿</td>
+                         <td><button class="btn btn-danger" onclick="popAlert(event)">Purchase</button></td>
+                      </tr>
+                      </tr>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <br /><br />
+                    <a href="../authed.html">
+                        <button
+                            type="button"
+                            class="btn btn-dark"
+                            style="margin-bottom: 20px"
+                        >
+                            Back
+                        </button>
+                    </a>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </body>
+</html>
