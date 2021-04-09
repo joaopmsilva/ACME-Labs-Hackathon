@@ -3,16 +3,16 @@ changeCam = (id) => {
     var videoid;
 
     switch (id) {
-        case "lisbon": videoid = "Tc5MW1Lxw_k";
+        case "lisbon": videoid = "9s_HrcAjRj8";
             break;
-        case "ny": videoid = "gFI5ieIpLzU";
+        case "ny": videoid = "_JzeIf1zT14";
             break;
-        case "madrid": videoid = "Tc5MW1Lxw_k";
+        case "madrid": videoid = "J_pIlkbZAKM";
             break;
     }
 
     $(".videoWrapper iframe").remove();
-    $('<iframe width="400" height="680" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>')
+    $('<iframe width="400" height="680" frameborder="0" allow="autoplay; accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe>')
         .attr("src", "http://www.youtube.com/embed/" + videoid + "?autoplay=1")
         .appendTo(".videoWrapper");
 

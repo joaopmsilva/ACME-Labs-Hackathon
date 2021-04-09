@@ -48,4 +48,6 @@ var answers = {
     3: ["Make all pokemon real", "Predict the future and play at the casino", "Transfer all the gold and currency to my personal bank"]
 }
 
-var results = ["", "", ""];
+var results = ["<b>Your tailored strategy to take over the world is:</b><br><br>An infectious virus that spreads through insects",
+    "<b>Your tailored strategy to take over the world is:</b><br><br>A chemical attack directed at the white house",
+    "<b>Your tailored strategy to take over the world is:</b><br><br>Hyptonizing Trump to have him attack North Korea with nuclear bombs"];
