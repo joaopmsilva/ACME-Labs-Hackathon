@@ -16,6 +16,5 @@ changeCam = (id) => {
     console.log(videoid);
 
     $('#video video source').attr('src', videoid);
-    console.log($('#video video source').attr('src', videoid));
 
 };
