@@ -3,17 +3,18 @@ changeCam = (id) => {
     var videoid;
 
     switch (id) {
-        case "lisbon": videoid = "9s_HrcAjRj8";
+        case "russia": videoid = "../html/resources/videos/russia.mp4";
             break;
-        case "ny": videoid = "_JzeIf1zT14";
+        case "usa": videoid = "../html/resources/videos/usa.mp4";
             break;
-        case "madrid": videoid = "J_pIlkbZAKM";
+        case "thailand": videoid = "../html/resources/videos/thailand.mp4";
+            break;
+        case "china": videoid = "../html/resources/videos/china.mp4";
             break;
     }
 
-    $(".videoWrapper iframe").remove();
-    $('<iframe width="400" height="680" frameborder="0" allow="autoplay; accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe>')
-        .attr("src", "http://www.youtube.com/embed/" + videoid + "?autoplay=1")
-        .appendTo(".videoWrapper");
+    $("#video").attr("src", videoid);
+    $("#video").load();
+    $("#video").play();
 
 };
