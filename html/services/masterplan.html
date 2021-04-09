@@ -7,12 +7,6 @@
 
         <title>ACME Labs</title>
 
-        <meta
-            name="description"
-            content="Source code generated using layoutit.com"
-        />
-        <meta name="author" content="LayoutIt!" />
-
         <link
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
             rel="stylesheet"
@@ -21,14 +15,17 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
-        <script src="https://kit.fontawesome.com/c3bc2f5af9.js" crossorigin="anonymous"></script>
+        <script
+            src="https://kit.fontawesome.com/c3bc2f5af9.js"
+            crossorigin="anonymous"
+        ></script>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
             href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
             rel="stylesheet"
         />
         <script src="../../js/masterplan.js"></script>
-        <link rel="stylesheet" str="../../css/masterplan.css">
+        <link rel="stylesheet" str="../../css/masterplan.css" />
     </head>
     <body
         style="
@@ -79,30 +76,91 @@
             <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
-                    <br>
-                    <h3 style="color: white; font-family: 'Abel', sans-serif;">
+                    <br />
+                    <h3 style="color: white; font-family: 'Abel', sans-serif">
                         Masterplan Crafter
                     </h3>
                     <div class="container-fluid">
                         <div class="modal-dialog">
-                          <div class="modal-content" style="background-color: lightslategrey; opacity: 90%; color: white; font-family: 'Abel', sans-serif;">
-                             <div class="text-center" style="margin-top: 20px; margin-left: 20px; margin-right: 20px;" id="question">
-                                <h3 id="questionText"></h3>
+                            <div
+                                class="modal-content"
+                                style="
+                                    background-color: lightslategrey;
+                                    opacity: 90%;
+                                    color: white;
+                                    font-family: 'Abel', sans-serif;
+                                "
+                            >
+                                <div
+                                    class="text-center"
+                                    style="
+                                        margin-top: 20px;
+                                        margin-left: 20px;
+                                        margin-right: 20px;
+                                    "
+                                    id="question"
+                                >
+                                    <h3 id="questionText"></h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="col-xs-3 col-xs-offset-5">
+                                        <div id="loadbar" style="display: none">
+                                            <i
+                                                class="fas fa-spinner fa-spin fa-7x"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="quiz"
+                                        id="quiz"
+                                        data-toggle="buttons"
+                                    >
+                                        <label
+                                            class="element-animation1 btn btn-lg btn-success btn-block"
+                                            ><span class="btn-label"
+                                                ><i
+                                                    class="glyphicon glyphicon-chevron-right"
+                                                ></i
+                                            ></span>
+                                            <input
+                                                type="radio"
+                                                name="q_answer"
+                                                value="1"
+                                            />
+                                            1 One</label
+                                        >
+                                        <label
+                                            class="element-animation2 btn btn-lg btn-success btn-block"
+                                            ><span class="btn-label"
+                                                ><i
+                                                    class="glyphicon glyphicon-chevron-right"
+                                                ></i
+                                            ></span>
+                                            <input
+                                                type="radio"
+                                                name="q_answer"
+                                                value="2"
+                                            />
+                                            2 Two</label
+                                        >
+                                        <label
+                                            class="element-animation3 btn btn-lg btn-success btn-block"
+                                            ><span class="btn-label"
+                                                ><i
+                                                    class="glyphicon glyphicon-chevron-right"
+                                                ></i
+                                            ></span>
+                                            <input
+                                                type="radio"
+                                                name="q_answer"
+                                                value="3"
+                                            />
+                                            3 Three</label
+                                        >
+                                    </div>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                                <div class="col-xs-3 col-xs-offset-5">
-                                   <div id="loadbar" style="display: none;">
-                                        <i class="fas fa-spinner fa-spin fa-7x"></i>
-                                  </div>
-                              </div>
-                              <div class="quiz" id="quiz" data-toggle="buttons">
-                               <label class="element-animation1 btn btn-lg btn-success btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="1"> 1 One</label>
-                               <label class="element-animation2 btn btn-lg btn-success btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="2"> 2 Two</label>
-                               <label class="element-animation3 btn btn-lg btn-success btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="3"> 3 Three</label>
-                           </div>
-                       </div>
-                    </div>
-                    </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4"></div>
